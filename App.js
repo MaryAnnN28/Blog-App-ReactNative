@@ -10,7 +10,8 @@ const navigator = createStackNavigator(
   {
     Index: IndexScreen,
     Show: ShowScreen,
-    Create: CreateScreen
+    Create: CreateScreen,
+    // Edit: EditScreen,
   },
   {
     initialRouteName: 'Index',
